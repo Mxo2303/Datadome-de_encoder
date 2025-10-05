@@ -2,6 +2,10 @@
 
 Guide d'utilisation complet du module de chiffrement/déchiffrement DataDome.
 
+## Contact
+
+discord: mxo23
+
 ## Utilisation
 
 ### Import du module
@@ -280,5 +284,6 @@ const decrypted = decryptor.decrypt(encrypted);
 3. **Correspondance des paramètres**: Pour que le déchiffrement fonctionne, **TOUS** les paramètres (hash, cid, salt, challengeType) doivent être **EXACTEMENT** identiques entre l'encrypteur et le décrypteur.
 
 4. **Hash et CID**: Ces valeurs proviennent de DataDome et doivent être extraites de la page/requête.
+
 
 5. **Type de challenge**: Seulement 2 types supportés: `'captcha'` (défaut) ou `'interstitial'`.
